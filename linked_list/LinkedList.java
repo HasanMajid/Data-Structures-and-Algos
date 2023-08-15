@@ -1,5 +1,15 @@
 
 public class LinkedList {
+    public class Node {
+        Node next;
+        int data;
+
+        public Node(int data) {
+            this.data = data;
+        }
+
+    }
+
     Node head;
 
     public void append(int data) {
